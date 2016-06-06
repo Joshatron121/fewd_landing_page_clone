@@ -1,7 +1,55 @@
 body {
 	background-color: LightGray;
+	margin: 0;
 }
 
 div {
 	border: 1px solid chocolate;
+}
+
+.navigation-section {
+	background: white;
+	width: 100%;
+	margin: 0;
+	height: 4.70em;
+}
+
+.navbar {
+	height: 3em;
+	background: white;
+	max-width: 70em;
+	min-width: 35em;
+	margin: 0 auto;
+	padding: .75em;
+}
+
+.navbar img{
+	height: 2.5em;
+}
+
+.navbar li {
+	display: inline;
+	margin-left: 1.45em;
+}
+
+.navbar > ul {
+	display: inline;
+	float: right;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: slategrey;
+	font-family: sans-serif;
+	font-size: 1.10em;
+
+}
+
+.navbar a:hover{
+	color: darkslategray;
+}
+
+.active a {
+	color: darkslategray;
+	font-weight: bold;
 }
