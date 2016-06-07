@@ -165,3 +165,8 @@ li {
 	font-size: 0.9em;
 	font-weight: 300;
 }
+
+.fa {
+	width: 1em;
+	cursor: pointer;
+}
