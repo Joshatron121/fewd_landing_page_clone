@@ -6,13 +6,9 @@ html {
 }
 
 body {
-	/*background-color: LightGray;*/
 	margin: 0;
 }
 
-div {
-	border: 1px solid chocolate;
-}
 
 .top-navigation {
 	position: fixed;
