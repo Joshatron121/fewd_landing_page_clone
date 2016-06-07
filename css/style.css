@@ -9,7 +9,6 @@ body {
 	margin: 0;
 }
 
-
 .top-navigation {
 	position: fixed;
 	background: white;
@@ -27,6 +26,10 @@ body {
 	padding: 0 0.938rem;
 	text-align: center;
 	font-family: 'roboto',sans-serif;
+}
+
+.top-navigation img {
+	float: left;
 }
 
 .top-navigation img{
