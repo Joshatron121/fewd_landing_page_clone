@@ -110,16 +110,16 @@ li {
 }
 
 .devices {
-	margin-left: -5em;
+	margin: 0 auto;
 }
 
 .cases h2 {
-	font-size: 2.5em;
+	font-size: 2.75em;
 	font-weight: 400;
 }
 
 .devices > li {
-	margin-left: 7em;
+	margin-right: 8em;
 }
 .devices h3 {
 	font-size: 1.5em;
@@ -130,7 +130,12 @@ li {
 }
 
 .cases {
+	padding: 5em 0;
 	height: 445px;
+}
+
+.footer {
+	margin-top: 6em;
 }
 
 .footer ul {
