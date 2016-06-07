@@ -10,9 +10,9 @@ body {
 	margin: 0;
 }
 
-/*div {
+div {
 	border: 1px solid chocolate;
-}*/
+}
 
 .top-navigation {
 	position: fixed;
@@ -75,7 +75,7 @@ body {
 	color: white;
 	padding: 15.969em 0;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 	letter-spacing: .03em;
 }
 
@@ -96,4 +96,10 @@ body {
 	border-radius: 4px;
 	color: white;
 	font-size: 1.125rem;
+}
+
+.buttons > button:hover {
+	background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
 }
