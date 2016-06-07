@@ -1,0 +1,180 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+.top-navigation {
+	position: fixed;
+	background: white;
+	width: 100%;
+	margin: 0;
+	border-bottom: 1px solid #ddd;
+	z-index: 9999;
+}
+
+.content {
+	height: 4.375em;
+	max-width: 60%;
+	min-width: 40rem;
+	margin: 0 auto;
+	padding: 0 0.938rem;
+	text-align: center;
+	font-family: 'roboto',sans-serif;
+}
+
+.top-navigation img {
+	float: left;
+}
+
+.top-navigation img{
+	height: 4.375rem;
+}
+
+.links {
+	float: right;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+}
+
+li {
+	display: inline-block;
+}
+
+.links li {
+	margin-left: 1.563rem;
+}
+
+.links a {
+	color: #838994;
+	text-decoration: none;
+	letter-spacing: .03em;
+}
+
+.link a:hover{
+	color: #333333;
+}
+
+.active a {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.introduction {
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+
+.introduction .content {
+	color: white;
+	padding: 15.969em 0;
+	letter-spacing: .03em;
+}
+
+.introduction h1 {
+	font-size: 2.5em;
+	font-weight: 400;
+
+}
+
+.introduction h3 {
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+.buttons > button{
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	padding: 1rem 1.5rem;
+	border-style: none;
+	border-radius: 4px;
+	color: white;
+	font-size: 1.125rem;
+}
+
+.buttons > button:hover {
+	background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+.devices {
+	margin-left: -5em;
+}
+
+.cases h2 {
+	font-size: 2.5em;
+	font-weight: 400;
+}
+
+.devices > li {
+	margin-left: 7em;
+}
+.devices h3 {
+	font-size: 1.5em;
+	font-weight: 400;
+}
+.devices img {
+	width: 100%;
+}
+
+.cases {
+	height: 445px;
+}
+
+.footer ul {
+	margin-left: -2em;
+}
+
+.footer li {
+	border: 1px solid lightgray;
+	border-radius: 100%;
+	margin-right: 1em;
+	padding: .5em;
+}
+
+.twitter {
+	color: #55acee;
+}
+
+.facebook {
+	color: #4c66a4;
+}
+
+.instagram {
+	color: #3f729b;
+}
+
+.footer h5 {
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.footer h6 {
+	margin-top: -.25em;
+	color: #838994;
+	font-size: 0.9em;
+	font-weight: 300;
+}
+
+.fa {
+	width: 1em;
+	cursor: pointer;
+}
+
+.footer hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313em 0;
+}
