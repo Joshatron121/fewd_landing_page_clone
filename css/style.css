@@ -170,3 +170,9 @@ li {
 	width: 1em;
 	cursor: pointer;
 }
+
+.footer hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313em 0;
+}
