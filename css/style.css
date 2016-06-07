@@ -34,18 +34,18 @@ div {
 	height: 4.375rem;
 }
 
-.content > ul {
+.links {
 	float: right;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
 }
 
-.content li {
+.links li {
 	display: inline-block;
 	margin-left: 1.563rem;
 }
 
-.content a {
+.links a {
 	color: #838994;
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
@@ -53,7 +53,7 @@ div {
 
 }
 
-.content a:hover{
+.link a:hover{
 	color: #333333;
 }
 
@@ -102,4 +102,22 @@ div {
 	background-color: #d9400e;
     border-color: #cf3d0e;
     cursor: pointer;
+}
+
+.devices {
+	margin-left: -5em;
+}
+
+.devices > li {
+	display: inline-block;
+	margin-left: 7em;
+}
+
+.devices img {
+	width: 100%;
+}
+
+.cases {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }
