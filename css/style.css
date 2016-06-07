@@ -109,28 +109,27 @@ li {
     cursor: pointer;
 }
 
-.devices {
-	margin: 0 auto;
-}
-
 .cases h2 {
 	font-size: 2.75em;
 	font-weight: 400;
 }
 
+
+
 .devices > li {
-	margin-right: 8em;
-}
-.devices h3 {
-	font-size: 1.5em;
-	font-weight: 400;
-}
-.devices img {
-	width: 100%;
+	width: 33.3333333%;
+	float: left;
 }
 
+.devices h3 {
+	font-size: 1.563em;
+	font-weight: 400;
+	margin: 2.5em 0px 1.875em;;
+}
+
+
+
 .cases {
-	padding: 5em 0;
 	height: 445px;
 }
 
